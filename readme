@@ -1,0 +1,29 @@
+
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.reorderpages.ReorderPDFPages
+```
+
+### Insert Pages
+
+The sample illustrates how to insert pages in a PDF file.
+
+#### Insert Pages into a PDF File
+
+The sample class InsertPDFPages inserts pages of multiple PDF files into a base PDF file.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.insertpages.InsertPDFPages
+```
+
+### Replace Pages
+
+The sample illustrates how to replace pages of a PDF file.
+
+#### Replace PDF File Pages with Multiple PDF Files
+
+The sample class ReplacePDFPages replaces specific pages in a PDF file with pages from multiple PDF files.
+
+```$xslt
+mvn -f pom.xml exec:java -Dexec.mainClass=com.adobe.platform.operation.samples.replacepages.ReplacePDFPages
+```
+
+### Licensing
